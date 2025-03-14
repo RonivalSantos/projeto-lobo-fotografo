@@ -1,0 +1,56 @@
+.rodape{
+  background-color: #000000;
+}
+.rodape-container{
+  max-width: 1200px;
+  padding: 60px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  gap: 100px;
+
+}
+.rodape a{
+  text-decoration: none;
+  color: inherit;
+  
+}
+.rodape-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+.rodape-contatos li{
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.1rem;
+  margin-bottom: 20px;
+}
+.rodape-direitos {
+  margin: 0 auto;
+  padding: 40px 0px;
+  font-size: 1.125rem;
+  line-height: 2;
+  color: #cccccc;
+  text-align: center;
+  border-top: 1px solid #202020;
+}
+@media (max-width:600px){
+  .rodape-container{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .rodape-texto{
+    font-size: 1.125rem;
+  }
+  .rodape-direitos{
+    font-size: 1rem;
+  }
+  .rodape-container{
+    padding: 60px 20px 30px 20px;
+  }
+  .rodape-direitos {
+    padding: 30px 0px;
+  }
+}
